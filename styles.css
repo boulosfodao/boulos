@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+    color: #fff;
+}
+
+header {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #e50914;
+}
+
+.video-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.video-item {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.video-item img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.video-item p {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.video-player {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+iframe {
+    border: none;
+}
