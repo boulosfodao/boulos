@@ -17,7 +17,7 @@ header h1 {
     color: #e50914;
 }
 
-.video-gallery {
+video-gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
