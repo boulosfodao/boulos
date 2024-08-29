@@ -17,7 +17,20 @@ header h1 {
     color: #e50914;
 }
 
-video-gallery {
+main {
+    padding: 20px;
+}
+
+input#search {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.video-gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
