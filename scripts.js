@@ -20,7 +20,7 @@ function searchVideos() {
     const input = document.getElementById('search');
     const filter = input.value.toLowerCase();
     const videoItems = document.querySelectorAll('.video-item');
-
+    
     videoItems.forEach(item => {
         const text = item.querySelector('p').textContent.toLowerCase();
         item.style.display = text.includes(filter) ? '' : 'none';
