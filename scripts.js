@@ -15,3 +15,13 @@ document.addEventListener('DOMContentLoaded', function() {
         videoPlayer.src = `https://www.youtube.com/embed/${videoId}`;
     }
 });
+function searchVideos() {
+    const input = document.getElementById('search');
+    const filter = input.value.toLowerCase();
+    const videoItems = document.querySelectorAll('.video-item');
+
+    videoItems.forEach(item => {
+        const text = item.querySelector('p').textContent.toLowerCase();
+        item.style.display = text.includes(filter) ? '' : 'none';
+    });
+}
